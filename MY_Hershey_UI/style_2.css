@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* --------------NAVBAR------------------- */
 
+
+
+
+/* ---------------------------------------- */
 .hero-licensing {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -17,7 +22,7 @@
 }
 
 .hero-licensing .hero-con-1 .con-1-content {
-    padding: 5rem 6rem 3rem;
+    padding: 3rem 6rem 3rem;
     width: 40vw;
     margin: auto;
 
@@ -71,8 +76,8 @@
     height: 100%;
 }
 
-.grow-text-content {
-    padding: 8rem 6rem 3rem;
+.grow-text-content > h2 {
+    padding: 8rem 6rem 1rem;
     width: 40vw;
     margin: auto;
     text-align: center;
@@ -89,6 +94,8 @@
     font-size: 1.2rem;
     line-height: 1.5;
     color: #333333;
+    padding: 0 2rem;
+    text-align: center;
 }
 
 /* ------------------------------------------------- */
@@ -96,7 +103,7 @@
 .licensing-articles{
     background-image:url(Brands_Assets/pips_pattern-01.svg);
     background-color: #08a9a0;
-    padding: 5rem 5rem 2rem 5rem;
+    padding: 4rem 5rem 2rem 5rem;
     background-repeat: no-repeat;
 
 }
@@ -145,14 +152,14 @@
 } */
 
 .licensing-articles .articles-con .cards .card-con {
-    padding: 3rem 1.5rem;
+    padding: 0rem 1.5rem;
 }
 
 .licensing-articles .articles-con .cards .card-con h3 {
     font-size: 1.5rem;
     color: #3f000b;
     text-decoration: underline;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     line-height: 1.4;
     font-weight: 800;
 }
@@ -190,13 +197,28 @@
 .global-content {
     text-align: center;
     background-color: #91268e;
-    padding: 4rem 6rem 5rem;
-    width: 30vw;
-    height: 40vh;
+    padding: 3rem 6rem 5rem;
+    width: 40vw;
+    height: 50vh;
     margin: auto;
     color: #feebd0;
     /* margin: 5rem; */
     /* text-align: center; */
+}
 
+.global-content >i {
+    font-size: 1.5rem;
 
+}
+
+.global-text .global-content h2 {
+    font-size: 2.5rem;
+    color: #feebd0;
+
+}
+
+.global-text .global-content p   {
+    font-size: 1.2rem;
+    /* line-height: 1.5; */
+    color: #feebd0;;
 }
